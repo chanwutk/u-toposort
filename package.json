@@ -9,7 +9,7 @@
   "types": "build/index.d.js",
   "scripts": {
     "prebuild": "rimraf build && mkdirp build",
-    "build": "rollup -c",
+    "build": "rollup -c ./rollup.config.ts",
     "test": "jest --config ./jest.config.json test/",
     "prepare": "npm run build",
     "prepublishOnly": "npm test",
