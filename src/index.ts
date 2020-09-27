@@ -26,3 +26,5 @@ export default function toposort<N>(edges: [N, N][]) {
 
   return sorted;
 }
+
+toposort.default = toposort;

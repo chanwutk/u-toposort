@@ -1,6 +1,6 @@
 {
   "name": "u-toposort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal Topological Sort that supports both JS/TS and HTML imports",
   "unpkg": "build/toposort.min.js",
   "jsdelivr": "build/toposort.min.js",
