@@ -10,7 +10,7 @@
   "scripts": {
     "prebuild": "rimraf build && mkdirp build",
     "build": "rollup -c",
-    "test": "jest --config ./jest.config.js test/",
+    "test": "jest --config ./jest.config.json test/",
     "prepare": "npm run build",
     "prepublishOnly": "npm test",
     "format": "prettier --write \"src/**/*.ts\"",
